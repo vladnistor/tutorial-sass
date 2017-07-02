@@ -1,0 +1,10 @@
+{
+  "description": "This is a CSS starter project",
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+  },
+  "dependencies": {
+    "node-sass-chokidar": "0.0.3"
+  }
+}

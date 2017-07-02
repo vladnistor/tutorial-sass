@@ -1,0 +1,17 @@
+html {
+  background-color: #fefefe;
+  font-family: "San Francisco"; }
+
+body {
+  margin: 0; }
+
+.tut-header {
+  background: linear-gradient(to bottom, #22bbff, #208bc7);
+  color: #fff;
+  height: 35px;
+  line-height: 35px;
+  font-size: 25px;
+  font-family: "San Francisco Thin"; }
+
+.tut-header, .tut-content {
+  padding: 10px; }

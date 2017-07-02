@@ -1,0 +1,35 @@
+$page-color: #fefefe;
+$page-font: "San Francisco";
+
+$header-gradient-top: #22bbff;
+$header-gradient-bottom: #208bc7;
+$header-color: linear-gradient(
+                    to bottom,
+                    $header-gradient-top,
+                    $header-gradient-bottom
+                );
+$header-height: 35px;
+$header-text-color: #fff;
+$header-font-size: 25px;
+$header-font-family: "San Francisco Thin";
+$padding-10: 10px;
+
+html{
+    background-color: $page-color;
+    font-family: $page-font;
+}
+body {
+    margin: 0;
+}
+.tut-header {
+    background: $header-color;
+    color: $header-text-color;
+    height: $header-height;
+    line-height: $header-height;
+    font-size: $header-font-size;
+    font-family: $header-font-family;
+}
+
+.tut-header, .tut-content {
+    padding: $padding-10;
+}
